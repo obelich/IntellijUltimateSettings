@@ -1,0 +1,3 @@
+<templateSet group="Rails Controllers">
+  <template name="keep" value="keep" toReformat="false" toShortenFQNames="true" />
+</templateSet>

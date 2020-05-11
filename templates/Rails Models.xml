@@ -1,0 +1,3 @@
+<templateSet group="Rails Models">
+  <template name="keep" value="keep" description="" toReformat="false" toShortenFQNames="true" />
+</templateSet>

@@ -1,0 +1,26 @@
+<templateSet group="Rails Console">
+  <template name="RaConsolGenScaffold" value="rails g scaffold $name$ $field1$:$type1$ $field2$:$type2$ $field3$:$type3$" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="capitalize(&quot;name&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="field1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="field2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="field3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="RaConsolGenModel" value="rails g model $Name$ $field1$:$type1$ $field2$:$type2$ $field3$:$type3$" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="field1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="field2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="field3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,10 @@
+<templateSet group="Rails Gemfile">
+  <template name="RbInitGemFileTesting" value="source 'https://rubygems.org'&#10;ruby &quot;$a$.$x$.$y$&quot;&#10;gem 'selenium-webdriver', '~&gt; 3.142', '&gt;= 3.142.3'&#10;gem 'webdrivers', '~&gt; 4.1', '&gt;= 4.1.1'&#10;gem 'rspec', '~&gt; 3.8'&#10;gem 'rspec-benchmark', '~&gt; 0.5.1'&#10;gem 'appium_lib', '~&gt; 10.4'&#10;gem 'cucumber', '~&gt; 3.1', '&gt;= 3.1.2'&#10;gem 'capybara', '~&gt; 3.26'&#10;gem 'airborne', '~&gt; 0.3.4'&#10;gem 'httparty', '~&gt; 0.17.0'&#10;gem 'coderay', '~&gt; 1.1', '&gt;= 1.1.2'&#10;gem 'pry'&#10;gem 'faker', '~&gt; 2.4'&#10;&#10;# Buscar que version son las actuales y establecer las versiones&#10;# https://rubygems.org/gems/selenium-webdriver&#10;# https://rubygems.org/gems/webdrivers&#10;# https://rubygems.org/gems/rspec&#10;# https://rubygems.org/gems/capybara&#10;# https://rubygems.org/gems/appium_lib&#10;# https://rubygems.org/gems/cucumber&#10;# https://rubygems.org/gems/httparty&#10;# https://rubygems.org/gems/coderay/versions/1.1.2&#10;# https://github.com/faker-ruby/faker&#10;# https://rubygems.org/gems/rspec-benchmark" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="x" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="y" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+</templateSet>

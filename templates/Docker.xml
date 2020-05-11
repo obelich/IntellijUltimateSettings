@@ -1,0 +1,3 @@
+<templateSet group="Docker">
+  <template name="keep" value="keep" description="" toReformat="false" toShortenFQNames="true" />
+</templateSet>
