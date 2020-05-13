@@ -1,17 +1,17 @@
 <templateSet group="Docker">
   <template name="keep" value="keep" description="" toReformat="false" toShortenFQNames="true" />
-  <template name="DockerInstallPgadmin4" value="docker run -p 80:80 \&#10;    -e 'PGADMIN_DEFAULT_EMAIL=developer@obelich.com' \&#10;    -e 'PGADMIN_DEFAULT_PASSWORD=Oscarm' \&#10;    -d dpage/pgadmin4" toReformat="false" toShortenFQNames="true">
+  <template name="DockerInstallPgadmin4" value="docker run -p 80:80 \&#10;    -e 'PGADMIN_DEFAULT_EMAIL=developer@obelich.com' \&#10;    -e 'PGADMIN_DEFAULT_PASSWORD=Oscarm' \&#10;    -d dpage/pgadmin4" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="DockerCreateNetwork" value="docker network create -d bridge $NombreRed$" toReformat="false" toShortenFQNames="true">
+  <template name="DockerCreateNetwork" value="docker network create -d bridge $NombreRed$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NombreRed" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="DockerNetworkConect" value="docker network connect $NetworkName$ $Container$" toReformat="false" toShortenFQNames="true">
+  <template name="DockerNetworkConect" value="docker network connect $NetworkName$ $Container$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NetworkName" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Container" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
