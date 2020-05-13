@@ -1,0 +1,14 @@
+<templateSet group="Flutter Pages">
+  <template name="StatefulWidget" value="import 'package:flutter/material.dart';&#10;&#10;class $Name$Page extends StatefulWidget {&#10;&#10;  @override&#10;  _InputPageState createState() =&gt; _$Name$PageState();&#10;}&#10;&#10;class _$Name$PageState extends State&lt;$Name$Page&gt; {&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Container(&#10;      &#10;    );&#10;  }&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="FluScaffoldListView" value="return Scaffold(&#10;  appBar: AppBar(&#10;    title: Text(&quot;$Titulo$&quot;),&#10;  ),&#10;  body: ListView(&#10;    children: &lt;Widget&gt;[&#10;&#10;    ],&#10;  ),&#10;);" toReformat="false" toShortenFQNames="true">
+    <variable name="Titulo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>
