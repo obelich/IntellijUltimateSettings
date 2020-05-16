@@ -11,4 +11,11 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="FlInitStateFullScaffold" value="import 'package:flutter/material.dart';&#10;&#10;class $Name$Page extends StatefulWidget {&#10;&#10;  @override&#10;  _$Name$PageState createState() =&gt; _$Name$PageState();&#10;}&#10;&#10;class _$Name$PageState extends State&lt;$Name$Page&gt; {&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      appBar: AppBar(&#10;        title: Text('$Titulo$'),&#10;      ),&#10;      body: Container(&#10;        child: Text('$Titulo$'),&#10;      ),&#10;    );&#10;  }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Titulo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
