@@ -35,4 +35,10 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="FlInitStateLessWidget" value="import 'package:flutter/material.dart';&#10;&#10;&#10;class $Nombre$Page extends StatelessWidget {&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;    body: Text('!!Hola $Nombre$ !!'),&#10;      &#10;    );&#10;  }&#10;  &#10;  &#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="Nombre" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
