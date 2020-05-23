@@ -18,24 +18,24 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="FlInitRoutes" value="import 'package:flutter/material.dart';&#10;&#10;&#10;Map&lt;String, WidgetBuilder&gt; getApplicationRoutes() {&#10;&#10;  return &lt;String, WidgetBuilder&gt;{&#10;    '/'                  : ( BuildContext context ) =&gt;  $Name$Page(),&#10;&#10;  };&#10;&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="FlInitRoutes" value="import 'package:flutter/material.dart';&#10;&#10;&#10;Map&lt;String, WidgetBuilder&gt; getApplicationRoutes() {&#10;&#10;  return &lt;String, WidgetBuilder&gt;{&#10;    '/'                  : ( BuildContext context ) =&gt;  $Name$Page(),&#10;&#10;  };&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="FlMainAddLenguajes" value="  //Esto se agrego ya que se tenia las dependencias de idiomas en pubspec&#10;  localizationsDelegates: [&#10;    GlobalMaterialLocalizations.delegate,&#10;    GlobalWidgetsLocalizations.delegate,&#10;    GlobalCupertinoLocalizations.delegate,&#10;  ],&#10;  supportedLocales: [&#10;    const Locale('en', 'US'), // English&#10;    const Locale('es', 'ES'), // Hebrew&#10;&#10;  ]," toReformat="false" toShortenFQNames="true">
+  <template name="FlMainAddLenguajes" value="  //Esto se agrego ya que se tenia las dependencias de idiomas en pubspec&#10;  localizationsDelegates: [&#10;    GlobalMaterialLocalizations.delegate,&#10;    GlobalWidgetsLocalizations.delegate,&#10;    GlobalCupertinoLocalizations.delegate,&#10;  ],&#10;  supportedLocales: [&#10;    const Locale('en', 'US'), // English&#10;    const Locale('es', 'ES'), // Hebrew&#10;&#10;  ]," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="FlInitMain" value="import 'package:flutter/material.dart';&#10;import './src/routes/routes.dart';&#10;&#10;void main() =&gt; runApp(MyApp());&#10;&#10;class MyApp extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return MaterialApp(&#10;      title: '$NameApp$',&#10;      debugShowCheckedModeBanner: false,&#10;      initialRoute: '/',&#10;      routes: getApplicationRoutes(),&#10;      onGenerateRoute: ( RouteSettings settings  ) {&#10;&#10;//        return MaterialPageRoute(&#10;//            builder: (BuildContext context  ) =&gt; AlertPage()&#10;//        );&#10;&#10;      },&#10;    );&#10;  }&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="FlInitMain" value="import 'package:flutter/material.dart';&#10;import './src/routes/routes.dart';&#10;&#10;void main() =&gt; runApp(MyApp());&#10;&#10;class MyApp extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return MaterialApp(&#10;      title: '$NameApp$',&#10;      debugShowCheckedModeBanner: false,&#10;      initialRoute: '/',&#10;      routes: getApplicationRoutes(),&#10;      onGenerateRoute: ( RouteSettings settings  ) {&#10;&#10;//        return MaterialPageRoute(&#10;//            builder: (BuildContext context  ) =&gt; AlertPage()&#10;//        );&#10;&#10;      },&#10;    );&#10;  }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NameApp" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="FlInitStateLessWidget" value="import 'package:flutter/material.dart';&#10;&#10;&#10;class $Nombre$Page extends StatelessWidget {&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;    body: Text('!!Hola $Nombre$ !!'),&#10;      &#10;    );&#10;  }&#10;  &#10;  &#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="FlInitStateLessWidget" value="import 'package:flutter/material.dart';&#10;&#10;&#10;class $Nombre$Page extends StatelessWidget {&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;    body: Text('!!Hola $Nombre$ !!'),&#10;      &#10;    );&#10;  }&#10;  &#10;  &#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="Nombre" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
