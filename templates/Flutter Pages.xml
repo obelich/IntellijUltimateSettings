@@ -41,4 +41,10 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="flInitFuture" value="    return FutureBuilder(&#10;      future: $future$,&#10;      //initialData: initialData,&#10;      builder: (BuildContext context, AsyncSnapshot snapshot) {&#10;        return $END$;&#10;      },&#10;    );" toReformat="false" toShortenFQNames="true">
+    <variable name="future" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
