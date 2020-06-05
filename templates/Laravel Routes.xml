@@ -5,4 +5,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="LrRouteReturnView" value="return view('$ViewName$');" toReformat="false" toShortenFQNames="true">
+    <variable name="ViewName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
