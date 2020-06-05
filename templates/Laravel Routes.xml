@@ -1,0 +1,8 @@
+<templateSet group="Laravel Routes">
+  <template name="LrRouteSetName" value="-&gt;name('$Name$');" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
