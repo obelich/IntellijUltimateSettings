@@ -2,6 +2,8 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".rbenv" type="PLAIN_TEXT" />
+      <mapping ext="axlsx" type="Ruby" />
+      <removed_mapping ext="axlsx" approved="true" type="Native" />
     </extensionMap>
   </component>
 </application>
